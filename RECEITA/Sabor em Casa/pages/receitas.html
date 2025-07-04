@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ff6b35">
+    <title>Receitas - Sabor em Casa</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/ICon.svg" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>Sabor em Casa</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link" translate="no">Home</a></li>
+                    <li><a href="receitas.html" class="nav-link active">Receitas</a></li>
+                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Nossas Receitas</h1>
+            <p>Descubra pratos incríveis para todas as ocasiões</p>
+        </div>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="search-bar">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <input type="text" id="search-input" placeholder="Buscar receitas ou ingredientes..."
+                    aria-label="Buscar receitas ou ingredientes">
+            </div>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="category-filter">Categoria:</label>
+                    <select id="category-filter" class="filter-select" aria-label="Filtrar por categoria">
+                        <option value="">Todas Categorias</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="time-filter">Tempo:</label>
+                    <select id="time-filter" aria-label="Filtrar por tempo de preparo">
+                        <option value="">Qualquer</option>
+                        <option value="15">Até 15 min</option>
+                        <option value="30">Até 30 min</option>
+                        <option value="60">Até 1 hora</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="difficulty-filter">Dificuldade:</label>
+                    <select id="difficulty-filter" aria-label="Filtrar por dificuldade">
+                        <option value="">Qualquer</option>
+                        <option value="easy">Fácil</option>
+                        <option value="medium">Médio</option>
+                        <option value="hard">Difícil</option>
+                    </select>
+                </div>
+
+                <button id="clear-filters" class="btn btn-outline" aria-label="Limpar todos os filtros">
+                    <i class="fas fa-times" aria-hidden="true"></i> Limpar Filtros
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipes Grid -->
+    <section class="recipes-section">
+        <div class="container">
+            <div class="recipes-grid" id="recipes-grid">
+                <!-- Receitas serão carregadas via JavaScript -->
+            </div>
+            <div id="no-results" class="no-results" style="display: none;" role="status" aria-live="polite">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <h3>Nenhuma receita encontrada</h3>
+                <p>Tente ajustar os filtros ou buscar por outros termos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-utensils"></i>
+                        <span>Sabor em Casa</span>
+                    </div>
+                    <p>Transformando sua cozinha em um lugar especial, uma receita por vez.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="receitas.html">Receitas</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-envelope"></i> contato@saboremcasa.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sabor em Casa. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="../js/receitas-data.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
