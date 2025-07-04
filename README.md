@@ -38,19 +38,20 @@ A proposta do **Sabor em Casa** é apresentar receitas de forma clara, atrativa 
 
 ## 📁 Estrutura do Projeto
 
+<pre>
 sabor-em-casa/
 ├── index.html
 ├── sobre.html
 ├── receitas.html
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── js/
-│ └── script.js
+│   └── script.js
 ├── assets/
-│ ├── img/
-│ └── logo.png
+│   ├── img/
+│   └── logo.png
 └── README.md
-
+</pre>
 ---
 
 ## 📱 Responsividade
