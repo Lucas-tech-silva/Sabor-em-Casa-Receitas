@@ -63,10 +63,11 @@ sabor-em-casa/
 ├── css/
 │   └── style.css
 ├── js/
-│   └── script.js
+│   └── script.js 
+│   └── receitas-data.js
 ├── assets/
 │   ├── img/
-│   └── logo.png
+│   ├── logo/
 └── README.md
 </pre>
 ---
