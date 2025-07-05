@@ -96,12 +96,14 @@ Desenvolvido por **Lucas Silva** 💻
 
 ## 🎉 Fun Fact
 
-🍝 *O primeiro "livro de receitas" conhecido foi escrito há mais de 4.000 anos na Mesopotâmia — em tábuas de argila!*  
-Mesmo naquela época, a galera já queria impressionar com o tempero! 😄
+
+👨‍🍳 *Você sabia que a pizza Margherita foi criada em homenagem à rainha Margherita da Itália?*  
+As cores dos ingredientes (manjericão, muçarela e tomate) representam a bandeira italiana! 🇮🇹🍕
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Fun gif"/>
+  <img src="https://media.giphy.com/media/3oEduSbSGpGaRX2Vri/giphy.gif" width="300" alt="Pizza gif"/>
 </p>
+
 
 <p align="center">
   <i>“🍽️ "Criar é temperar ideias com dedicação — cada linha de código é um ingrediente que transforma experiências simples em algo inesquecível."” <br>
