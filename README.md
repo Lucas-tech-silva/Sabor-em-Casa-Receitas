@@ -95,6 +95,9 @@ sabor-em-casa/
 │   ├── receitas.html
 │   └── sobre.html
 │
+├── robots.txt
+├── sitemap.xml
+│
 ├── README-ATUALIZADO.md
 └── README.md
 </pre>
