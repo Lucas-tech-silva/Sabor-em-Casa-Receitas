@@ -62,7 +62,7 @@ O layout é adaptável a **celulares, tablets e desktops**, proporcionando uma n
 
 ## 🛠️ Autor
 
-Desenvolvido com 💛 por **[Seu Nome Aqui]**
+Desenvolvido por **Lucas Silva** 💻 
 
 - GitHub: [github.com/seu-usuario](https://github.com/seu-usuario)
 - Portfólio (opcional): [seusite.dev](https://seusite.dev)
@@ -72,6 +72,6 @@ Desenvolvido com 💛 por **[Seu Nome Aqui]**
 
 ## 📌 Status do Projeto
 
-✅ Concluído | 💡 Melhorias futuras: filtros de busca, modo escuro, animações adicionais e painel de favoritos.
+✅ Concluído | 💡 Melhorias futuras: animações adicionais, painel de favoritos, sistema de avaliação por estrelas ⭐⭐⭐⭐⭐, comentários dos usuários 💬, opção de salvar receitas 📌, filtro por categoria 🍽️, e sistema de feedback 💬.
 
 ---
