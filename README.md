@@ -12,7 +12,8 @@ Este repositório está **privado** com o objetivo de proteger:
 - A **identidade visual** pensada exclusivamente para minha apresentação profissional
 - O uso estratégico de **animações, responsividade e navegação fluida**
 
-Caso queira conhecer o site em funcionamento ou me convidar para uma colaboração, sinta-se à vontade para me contatar. 👇
+Caso queira conhecer o site em funcionamento ou me convidar para uma colaboração, sinta-se à vontade para me contatar. 👇  
+<br>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/lucas-silva-ab6360365/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
@@ -26,8 +27,6 @@ Caso queira conhecer o site em funcionamento ou me convidar para uma colaboraç�
   </a>
 </p>
 
-<br>
-
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -35,12 +34,11 @@ Caso queira conhecer o site em funcionamento ou me convidar para uma colaboraç�
 - 🔹 **HTML5** — semântica e estrutura limpa  
 - 🔹 **CSS3** — layout responsivo, grid/flexbox e animações suaves  
 - 🔹 **JavaScript** — interação, navegação dinâmica e manipulação de elementos   
-- 🔹 **SEO** — otimização para melhorar a indexação e visibilidade do site nos motores de busca, garantindo melhor ranqueamento e maior alcance orgânico.  
-- 🔹 **Design UX/UI** — foco na navegação fluida, visual limpo e usabilidade  
-- 🔹 **Figma** — prototipagem e layout visual  
+- 🔹 **SEO** — otimização para melhorar a indexação e visibilidade do site nos motores de busca, garantindo melhor ranqueamento e maior alcance orgânico.
+- 🔹 **Design UX/UI** — foco na navegação fluida, visual limpo e usabilidade
+- 🔹 **Figma** — prototipagem e layout visual 
 - 🔹 **Git/GitHub** — versionamento e deploy  
 
-<br>
 
 ---
 
@@ -56,7 +54,6 @@ O objetivo deste portfólio é **apresentar meus principais projetos, habilidade
 - 🔄 Transições e animações suaves, otimizadas para performance e conforto visual  
 - 👁️ Uso consciente de tipografia, espaçamentos, contraste e hierarquia visual, favorecendo a acessibilidade e usabilidade  
 
-<br>
 
 ---
 
@@ -75,17 +72,13 @@ portifolio/
 ├── sitemap.xml         ← facilita indexação do site pelo Google
 ├── robots.txt          ← define regras para rastreadores (SEO técnico)
 └── README.md
-</pre>
-
-<br>
+</pre> 
 
 ---
 
 ## 📱 Responsividade
 
 Projetado para funcionar perfeitamente em **desktops, tablets e celulares**, garantindo uma boa experiência em qualquer resolução.
-
-<br>
 
 ---
 
@@ -94,10 +87,8 @@ Projetado para funcionar perfeitamente em **desktops, tablets e celulares**, gar
 Desenvolvido por **Lucas Silva** 💻  
 
 - GitHub: [Clique aqui](https://github.com/Lucas-tech-silva)  
-- Portfólio: [Clique aqui](https://portif-lio-nu-two.vercel.app/)  
+- Portfólio: [Clique aqui](https://portif-lio-nu-two.vercel.app/)
 - Linkedin: [Clique aqui](https://www.linkedin.com/in/lsssss-developer/)
-
-<br>
 
 ---
 
@@ -105,12 +96,9 @@ Desenvolvido por **Lucas Silva** 💻
 
 ✅ Concluído | 💡 Melhorias futuras: animações mais interativas, dashboard de visualizações, integração com API de contatos, blog com dicas de carreira e modo acessível (alto contraste + teclas de navegação).
 
-<br>
-
 ---
 
 ## ✨ Fun Fact
-
 <p align="center">
   💡 *Sabia que a primeira homepage do mundo foi publicada em 1991 por Tim Berners-Lee?* <br>
   Foi o início da web como conhecemos hoje!
