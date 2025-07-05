@@ -96,12 +96,11 @@ Desenvolvido por **Lucas Silva** 💻
 
 ## 🎉 Fun Fact
 
-
-👨‍🍳 *Você sabia que a pizza Margherita foi criada em homenagem à rainha Margherita da Itália?*  
-As cores dos ingredientes (manjericão, muçarela e tomate) representam a bandeira italiana! 🇮🇹🍕
+🍳 *Sabia que o primeiro utensílio de cozinha foi a colher?*  
+Ela é usada há mais de 20.000 anos! Muito antes de facas e garfos. 🥄
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3oEduSbSGpGaRX2Vri/giphy.gif" width="300" alt="Pizza gif"/>
+  <img src="https://media.giphy.com/media/26uf9QPzzlKPvQG5K/giphy.gif" width="300" alt="Cozinhando"/>
 </p>
 
 
