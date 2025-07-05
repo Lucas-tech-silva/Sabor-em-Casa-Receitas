@@ -29,8 +29,6 @@ Este repositório está **privado** com o objetivo de proteger:
   </a>
 </p>
 
-<br>
-
 ---
 
 
