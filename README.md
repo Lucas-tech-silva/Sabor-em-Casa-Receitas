@@ -95,9 +95,12 @@ Desenvolvido por **Lucas Silva** 💻
 ---
 
 ## 🎉 Fun Fact
+<p align="center">
+  🍳 *Sabia que o primeiro utensílio de cozinha foi a colher?*  
+  Ela é usada há mais de 20.000 anos! Muito antes de facas e garfos. 🥄
+</p>
 
-🍳 *Sabia que o primeiro utensílio de cozinha foi a colher?*  
-Ela é usada há mais de 20.000 anos! Muito antes de facas e garfos. 🥄
+<br>
 
 <p align="center">
   <img src="https://i.imgur.com/EzHQzDH.gif" width="300" alt="Café da manhã saudável com pão e ovo mexido"/>
