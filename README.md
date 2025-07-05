@@ -105,7 +105,7 @@ Ela é usada há mais de 20.000 anos! Muito antes de facas e garfos. 🥄
 
 
 <p align="center">
-  <i>“🍽️ "Criar é temperar ideias com dedicação — cada linha de código é um ingrediente que transforma experiências simples em algo inesquecível."”  — Lucas Silva </i>
+  <i>“🍽️ "Criar é temperar ideias com dedicação — cada linha de código é um ingrediente que transforma experiências simples em algo inesquecível."” <br> — Lucas Silva </i>
 </p>
 
 
