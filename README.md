@@ -98,8 +98,6 @@ sabor-em-casa/
 
 ---
 
-<br>
-
 ## 📱 Responsividade
 
 O layout é totalmente responsivo, funcionando perfeitamente em celulares, tablets e desktops, e conta com um menu hambúrguer que garante fácil navegação em telas menores.
