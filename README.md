@@ -100,7 +100,7 @@ Desenvolvido por **Lucas Silva** 💻
 Ela é usada há mais de 20.000 anos! Muito antes de facas e garfos. 🥄
 
 <p align="center">
-  <img src="https://imgur.com/a/flasLlA" width="300" alt="Café da manhã saudável com pão e ovo mexido"/>
+  <img src="https://i.imgur.com/EzHQzDH.gif" width="300" alt="Café da manhã saudável com pão e ovo mexido"/>
 </p>
 
 
