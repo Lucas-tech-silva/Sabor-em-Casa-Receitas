@@ -102,7 +102,7 @@ sabor-em-casa/
 
 ## 📱 Responsividade
 
-O layout é adaptável a **celulares, tablets e desktops**, proporcionando uma navegação fluida em qualquer tela.
+O layout é totalmente responsivo, funcionando perfeitamente em celulares, tablets e desktops, e conta com um menu hambúrguer que garante fácil navegação em telas menores.
 
 <br>
 
@@ -122,7 +122,6 @@ Desenvolvido por **Lucas Silva** 💻
 
 ---
 
-<br>
 
 ## 📌 Status do Projeto
 
@@ -132,7 +131,6 @@ Desenvolvido por **Lucas Silva** 💻
 
 ---
 
-<br>
 
 ## 🎉 Fun Fact
 <p align="center">
