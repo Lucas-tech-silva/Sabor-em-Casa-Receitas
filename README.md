@@ -82,9 +82,9 @@ O layout é adaptável a **celulares, tablets e desktops**, proporcionando uma n
 
 Desenvolvido por **Lucas Silva** 💻 
 
-- GitHub: [github.com/seu-usuario](https://github.com/Lucas-tech-silva)
-- Portfólio: [seusite.dev](https://portif-lio-nu-two.vercel.app/)
-- Linkedin: [@seulinkedin](https://www.linkedin.com/in/lsssss-developer/)
+- GitHub: [Clique aqui](https://github.com/Lucas-tech-silva)  
+- Portfólio: [Clique aqui](https://portif-lio-nu-two.vercel.app/)
+- Linkedin: [Clique aqui](https://www.linkedin.com/in/lsssss-developer/)
 
 ---
 
