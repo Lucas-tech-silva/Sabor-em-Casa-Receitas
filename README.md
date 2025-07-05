@@ -41,7 +41,9 @@ Este repositório está **privado** com o objetivo de proteger:
 - 🔹 **CSS3** — responsividade, animações e design moderno  
 - 🔹 **JavaScript** — interatividade e manipulação dinâmica dos dados  
 - 🔹 **Design UX/UI** — foco na navegação fluida, visual limpo e usabilidade  
-- 🔹 **Logo e Marca** — criados manualmente para refletir o conceito do projeto  
+- 🔹 **Logo e Marca** — criados manualmente para refletir o conceito do projeto
+- 🔹 Figma — prototipagem e layout visual
+- 🔹 Git/GitHub — versionamento e deploy
 
 <br>
 
