@@ -45,8 +45,6 @@ Este repositório está **privado** com o objetivo de proteger:
 
 ---
 
-<br>
-
 ## 🧠 Sobre o Projeto
 
 A proposta do **Sabor em Casa** é apresentar receitas de forma clara, atrativa e acessível. O site foi pensado para:
