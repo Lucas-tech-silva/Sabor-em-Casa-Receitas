@@ -108,7 +108,7 @@ Desenvolvido por **Lucas Silva** 💻
 
 
 <p align="center">
-  <i>“🍽️ "Criar é temperar ideias com dedicação — cada linha de código é um ingrediente que transforma experiências simples em algo inesquecível."” — Lucas Silva </i>
+  <i>🍽️ "Criar é temperar ideias com dedicação — cada linha de código é um ingrediente que transforma experiências simples em algo inesquecível." — Lucas Silva </i>
 </p>
 
 
