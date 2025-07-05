@@ -25,9 +25,9 @@ Este repositório está **privado** com o objetivo de proteger:
     <img src="https://img.shields.io/badge/Yahoo-6001D2?style=for-the-badge&logo=yahoo&logoColor=white" alt="Yahoo Mail"/>
   </a>
 
-  <a href="https://wa.me/5511995442274?text=Prezado%20Lucas%2C%20tudo%20bem%3F%20Tive%20acesso%20ao%20seu%20projeto%20Sabor%20em%20Casa%20Receita%20e%20gostaria%20de%20conversar%20sobre%20uma%20poss%C3%ADvel%20colabora%C3%A7%C3%A3o%20profissional.%20Aguardo%20seu%20retorno." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
-  </a>
+<a href="https://wa.me/5511995442274?text=Olá%20Lucas%2C%20tudo%20bem%3F%20Vi%20seu%20projeto%20Sabor%20em%20Casa%20e%20gostaria%20de%20conversar%20sobre%20uma%20possível%20colaboração%20profissional.%20Fico%20no%20aguardo%20do%20seu%20retorno." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+</a>
 </p>
 
 <br>
