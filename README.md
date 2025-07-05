@@ -1,8 +1,6 @@
 # 👨‍🍳 Sabor em Casa
 
-**Sabor em Casa** é um site de receitas desenvolvido por mim com foco em **experiência do usuário (UX)**, **interface intuitiva (UI)** e design responsivo. O projeto foi criado 100% do zero — desde a **identidade visual**, **logo**, **layout**, até a **estrutura de código em HTML, CSS e JavaScript**.
-
-<br>
+**Sabor em Casa** é um site de receitas desenvolvido por mim com foco em **experiência do usuário (UX)**, **interface intuitiva (UI)** e design responsivo. O projeto foi criado 100% do zero — desde a **identidade visual**, **logo**, **layout**, até a **estrutura de código em HTML, Tailwind, CSS e JavaScript**.
 
 ---
 
