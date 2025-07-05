@@ -4,8 +4,6 @@
 
 ---
 
-<br>
-
 ## 🔒 Repositório Privado
 
 Este repositório está **privado** com o objetivo de proteger:
