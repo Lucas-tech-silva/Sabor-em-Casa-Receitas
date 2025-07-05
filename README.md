@@ -2,7 +2,11 @@
 
 **Sabor em Casa** é um site de receitas desenvolvido por mim com foco em **experiência do usuário (UX)**, **interface intuitiva (UI)** e design responsivo. O projeto foi criado 100% do zero — desde a **identidade visual**, **logo**, **layout**, até a **estrutura de código em HTML, CSS e JavaScript**.
 
+<br>
+
 ---
+
+<br>
 
 ## 🔒 Repositório Privado
 
@@ -29,9 +33,11 @@ Este repositório está **privado** com o objetivo de proteger:
   </a>
 </p>
 
-
+<br>
 
 ---
+
+<br>
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -41,7 +47,11 @@ Este repositório está **privado** com o objetivo de proteger:
 - 🔹 **Design UX/UI** — foco na navegação fluida, visual limpo e usabilidade  
 - 🔹 **Logo e Marca** — criados manualmente para refletir o conceito do projeto  
 
+<br>
+
 ---
+
+<br>
 
 ## 🧠 Sobre o Projeto
 
@@ -51,32 +61,59 @@ A proposta do **Sabor em Casa** é apresentar receitas de forma clara, atrativa 
 - 🥗 Cards com receitas ilustradas, tempo de preparo, dificuldade e ingredientes  
 - 🌙 Animações suaves e visual agradável  
 
+<br>
+
 ---
+
+<br>
 
 ## 📁 Estrutura do Projeto
 
 <pre>
 sabor-em-casa/
-├── index.html
-├── sobre.html
-├── receitas.html
+│
+├── assets/
+│   └── img/
+│       ├── logo/
+│ 
 ├── css/
 │   └── style.css
+│
 ├── js/
-│   └── script.js 
+│   ├── action-buttons.js
+│   ├── contact-form.js
+│   ├── main.js
+│   ├── README-MODULOS.md
 │   └── receitas-data.js
-├── assets/
-│   ├── img/
-│   ├── logo/
+│
+├── pages/
+│   ├── contato.html
+│   ├── imprimir-receitas.html
+│   ├── index.html
+│   ├── print.html
+│   ├── receita.html
+│   ├── receitas.html
+│   └── sobre.html
+│
+├── README-ATUALIZADO.md
 └── README.md
 </pre>
+
+<br>
+
 ---
+
+<br>
 
 ## 📱 Responsividade
 
 O layout é adaptável a **celulares, tablets e desktops**, proporcionando uma navegação fluida em qualquer tela.
 
+<br>
+
 ---
+
+<br>
 
 ## 🛠️ Autor
 
@@ -86,13 +123,21 @@ Desenvolvido por **Lucas Silva** 💻
 - Portfólio: [Clique aqui](https://portif-lio-nu-two.vercel.app/)
 - Linkedin: [Clique aqui](https://www.linkedin.com/in/lsssss-developer/)
 
+<br>
+
 ---
+
+<br>
 
 ## 📌 Status do Projeto
 
 ✅ Concluído | 💡 Melhorias futuras: animações adicionais, painel de favoritos, sistema de avaliação por estrelas ⭐⭐⭐⭐⭐, comentários dos usuários 💬, opção de salvar receitas 📌 e sistema de feedback 💬.
 
+<br>
+
 ---
+
+<br>
 
 ## 🎉 Fun Fact
 <p align="center">
@@ -106,9 +151,10 @@ Desenvolvido por **Lucas Silva** 💻
   <img src="https://i.imgur.com/EzHQzDH.gif" width="300" alt="Café da manhã saudável com pão e ovo mexido"/>
 </p>
 
+<br>
 
 <p align="center">
   <i>🍽️ "Criar é temperar ideias com dedicação — cada linha de código é um ingrediente que transforma experiências simples em algo inesquecível." — Lucas Silva </i>
 </p>
 
-
+<br>
