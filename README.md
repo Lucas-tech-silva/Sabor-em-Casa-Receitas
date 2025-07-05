@@ -13,7 +13,7 @@ Este repositório está **privado** com o objetivo de proteger:
 - A **originalidade da marca e das soluções de UX/UI**
 
   Caso deseje visualizar o site em funcionamento, entre em contato diretamente comigo. Logo abaixo:
-<br>
+<br><br><br>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/lucas-silva-ab6360365/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
