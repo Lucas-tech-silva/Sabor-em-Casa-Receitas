@@ -87,8 +87,8 @@ sabor-em-casa/
 │   ├── receitas.html
 │   └── sobre.html
 │
-├── robots.txt
-├── sitemap.xml
+├── sitemap.xml         ← facilita indexação do site pelo Google
+├── robots.txt          ← define regras para rastreadores (SEO técnico)
 │
 ├── README-ATUALIZADO.md
 └── README.md
