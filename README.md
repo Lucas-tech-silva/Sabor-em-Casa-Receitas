@@ -31,7 +31,6 @@ Este repositório está **privado** com o objetivo de proteger:
 
 ---
 
-<br>
 
 ## 🚀 Tecnologias Utilizadas
 
