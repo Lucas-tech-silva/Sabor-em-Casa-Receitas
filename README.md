@@ -90,6 +90,22 @@ Desenvolvido por **Lucas Silva** 💻
 
 ## 📌 Status do Projeto
 
-✅ Concluído | 💡 Melhorias futuras: animações adicionais, painel de favoritos, sistema de avaliação por estrelas ⭐⭐⭐⭐⭐, comentários dos usuários 💬, opção de salvar receitas 📌, filtro por categoria 🍽️, e sistema de feedback 💬.
+✅ Concluído | 💡 Melhorias futuras: animações adicionais, painel de favoritos, sistema de avaliação por estrelas ⭐⭐⭐⭐⭐, comentários dos usuários 💬, opção de salvar receitas 📌 e sistema de feedback 💬.
 
 ---
+
+## 🎉 Fun Fact
+
+🍝 *O primeiro "livro de receitas" conhecido foi escrito há mais de 4.000 anos na Mesopotâmia — em tábuas de argila!*  
+Mesmo naquela época, a galera já queria impressionar com o tempero! 😄
+
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Fun gif"/>
+</p>
+
+<p align="center">
+  <i>“🍽️ "Criar é temperar ideias com dedicação — cada linha de código é um ingrediente que transforma experiências simples em algo inesquecível."” <br>
+   — Lucas Silva </i>
+</p>
+
+
