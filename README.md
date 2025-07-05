@@ -13,8 +13,6 @@ Este repositório está **privado** com o objetivo de proteger:
 - A **identidade visual** criada exclusivamente para o projeto
 - A **originalidade da marca e das soluções de UX/UI**
 
-  <br>
-
   Caso deseje visualizar o site em funcionamento, entre em contato diretamente comigo. Logo abaixo:
 <br>
 
