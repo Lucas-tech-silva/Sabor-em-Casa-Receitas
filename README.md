@@ -14,6 +14,20 @@
 
 <br>
 
+
+- [🔒 Repositório Privado](#-repositório-privado)
+- [🧠 Sobre o Projeto](#-sobre-o-projeto)
+  - [Objetivo](#objetivo)
+  - [Funcionalidades](#funcionalidades)
+- [🚀 Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+- [📱 Responsividade](#-responsividade)
+- [💻 Como Rodar o Projeto Localmente](#-como-rodar-o-projeto-localmente)
+- [🛠️ Autor](#-autor)
+- [📌 Status do Projeto](#-status-do-projeto)
+- [📞 Contato](#-contato)
+- [🎉 Fun Fact](#-fun-fact)
+
 ---
 
 
