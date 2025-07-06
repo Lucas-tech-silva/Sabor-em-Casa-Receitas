@@ -35,7 +35,7 @@ Este repositório está **privado** com o objetivo de proteger:
   </a>
 
   <a href="mailto:lucassilva1710@yahoo.com?subject=Interesse%20em%20seu%20perfil%20no%20GitHub&body=Prezado%20Lucas%2C%0D%0A%0D%0AAnalisei%20seu%20perfil%20no%20GitHub%20e%20fiquei%20interessado%20em%20seu%20trabalho.%20Gostaria%20de%20iniciar%20um%20contato%20profissional.%0D%0A%0D%0AFico%20no%20aguardo%20de%20seu%20retorno." target="_blank" rel="noopener noreferrer" aria-label="Yahoo Mail">
-    <img src="https://img.shields.io/badge/Yahoo-6001D2?style=for-the-badge&logo=yahoo&logoColor=white" alt="Yahoo Mail"/>
+    <img src="https://img.shields.io/badge/Yahoo (MOBILE)-6001D2?style=for-the-badge&logo=yahoo&logoColor=white" alt="Yahoo Mail"/>
   </a>
 
 <a href="https://wa.me/5511995442274?text=Olá%20Lucas%2C%20tudo%20bem%3F%20Vi%20seu%20projeto%20Sabor%20em%20Casa%20e%20gostaria%20de%20conversar%20sobre%20uma%20possível%20colaboração%20profissional.%20Fico%20no%20aguardo%20do%20seu%20retorno." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
