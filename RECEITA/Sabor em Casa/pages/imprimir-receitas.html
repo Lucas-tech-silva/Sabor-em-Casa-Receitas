@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#ff6b35">
     <title>Receita - Sabor em Casa</title>
 
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" href="../assets/img/logo/logo.jpg" type="image/png">
+    <link rel="icon" href="../assets/ICon.svg" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -21,8 +20,7 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <img src="../assets/img/logo/logo.jpg" class="logo"
-                        alt="Logo da Sabor em Casa: um garfo, uma faca e um chapéu de cozinheiro">
+                    <i class="fas fa-utensils"></i>
                     <span>Sabor em Casa</span>
                 </div>
                 <ul class="nav-menu">
@@ -34,23 +32,19 @@
                 <div class="theme-toggle">
                     <i class="fas fa-moon" id="theme-icon"></i>
                 </div>
-                <button class="mobile-menu-btn">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </button>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </nav>
     </header>
 
-    <!-- Recipe Detail Content -->
+    <!-- Recipe Detail Section -->
     <section class="recipe-detail">
-        <div class="container">
+        <div class="container" id="recipe-container">
             <!-- Conteúdo será carregado via JavaScript -->
-            <div class="loading">
-                <i class="fas fa-spinner fa-spin"></i>
-                Carregando receita...
-            </div>
         </div>
     </section>
 

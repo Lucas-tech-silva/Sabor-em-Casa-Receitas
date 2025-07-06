@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 /* ==================== RESET E CONFIGURAÇÕES GLOBAIS ==================== */
 * {
     margin: 0;
@@ -31,7 +33,7 @@
     --shadow-light: 0 2px 10px rgba(0, 0, 0, 0.1);
     --shadow-medium: 0 4px 20px rgba(0, 0, 0, 0.15);
     --shadow-heavy: 0 8px 30px rgba(0, 0, 0, 0.2);
-    
+
     /* Bordas */
     --border-radius: 8px;
     --border-radius-large: 12px;
@@ -75,7 +77,7 @@
 
 [data-theme="dark"] .recipe-card,
 [data-theme="dark"] .feature-card {
-    border: 1px solid #303030; 
+    border: 1px solid #303030;
     box-shadow: var(--shadow-medium);
 }
 
@@ -99,7 +101,7 @@
     box-shadow: var(--shadow-heavy);
 }
 
-[data-theme="dark"]  .value-item:hover {
+[data-theme="dark"] .value-item:hover {
     box-shadow: var(--shadow-heavy);
 }
 
@@ -249,8 +251,12 @@ html {
     text-decoration: none;
 }
 
-.nav-logo i {
-    font-size: 1.5rem;
+.nav-logo span {
+    font-size: 1.45rem;
+}
+
+.logo {
+    width: 2.5rem;
 }
 
 .nav-menu {
@@ -306,18 +312,41 @@ html {
     color: var(--primary-color);
 }
 
-.hamburger {
+/* ==================== MENU HAMBURGER ==================== */
+.mobile-menu-btn {
     display: none;
     flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
     cursor: pointer;
-    gap: 4px;
+    padding: 0;
+    z-index: 10;
 }
 
-.hamburger span {
-    width: 250px;
+.mobile-menu-btn .line {
+    width: 25px;
     height: 3px;
     background-color: var(--text-primary);
-    transition: var(--transition);
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
+
+.mobile-menu-btn.open .line:first-child {
+    transform: rotate(45deg);
+}
+
+.mobile-menu-btn.open .line:nth-child(2) {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.mobile-menu-btn.open .line:third-child {
+    transform: rotate(-45deg);
 }
 
 /* ==================== HERO SECTION ==================== */
@@ -438,8 +467,93 @@ html {
     color: var(--text-white);
     padding: 4px 8px;
     border-radius: var(--border-radius);
-    font-size: var(--font-size-small);
+    font-size: 0.8rem;
     font-weight: 500;
+}
+
+/* ==================== BOTÃO DE FAVORITOS ==================== */
+.btn-favorite {
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #666;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-favorite:hover {
+    background: rgba(255, 107, 53, 0.1);
+    color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.btn-favorite.active {
+    background: #e74c3c;
+    color: white;
+}
+
+.btn-favorite.active:hover {
+    background: #c0392b;
+}
+
+/* ==================== TIMER MINIMALISTA ==================== */
+.mini-timer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: monospace;
+    font-weight: bold;
+    min-width: 150px;
+}
+
+.mini-timer .time {
+    font-size: 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+.mini-timer .controls {
+    display: flex;
+    gap: 5px;
+}
+
+.mini-timer button {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.mini-timer button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
 }
 
 .recipe-card-content {
@@ -652,12 +766,14 @@ html {
     top: 15px;
     right: 15px;
     display: flex;
+    flex-direction: row;
     gap: 10px;
+    align-items: center;
 }
 
 .btn-favorite,
 .btn-share {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.95);
     border: none;
     border-radius: 50%;
     width: 45px;
@@ -667,25 +783,41 @@ html {
     justify-content: center;
     cursor: pointer;
     transition: var(--transition);
-    color: var(--bg-dark);
+    color: #666;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 10;
 }
 
-.btn-favorite-card {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+.btn-share {
+    margin-left: 60px;
+    position: relative;
+    top: 5px;
 }
 
-.btn-favorite:hover,
+.btn-favorite:hover {
+    background-color: rgba(255, 107, 53);
+    color: white;
+    transform: scale(1.1);
+}
+
 .btn-share:hover {
-    background-color: var(--primary-color);
-    color: var(--text-white);
+    background-color: rgba(255, 107, 53);
+    color: white;
     transform: scale(1.1);
 }
 
 .btn-favorite.active {
-    background-color: var(--danger-color);
-    color: var(--text-white);
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn-favorite.active:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+}
+
+.btn-favorite i {
+    font-size: 1.2rem;
 }
 
 .recipe-meta {
@@ -716,16 +848,6 @@ html {
     align-items: center;
     gap: 10px;
     margin-bottom: 1.5rem;
-}
-
-.stars {
-    display: flex;
-    gap: 2px;
-}
-
-.stars i {
-    color: var(--accent-color);
-    font-size: 1.2rem;
 }
 
 .recipe-content {
@@ -818,10 +940,26 @@ html {
 
 .about-intro {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 3rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
     margin-bottom: 4rem;
-    align-items: center;
+    text-align: center;
+}
+
+.about-image {
+    order: -1;
+}
+
+@media (min-width: 769px) {
+    .about-intro {
+        grid-template-columns: 2fr 1fr;
+        gap: 3rem;
+        text-align: left;
+    }
+
+    .about-image {
+        order: 0;
+    }
 }
 
 .about-text h2 {
@@ -1079,6 +1217,13 @@ html {
     gap: 4rem;
 }
 
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
 .contact-form-section h2 {
     font-size: var(--font-size-2xl);
     font-weight: 600;
@@ -1140,7 +1285,9 @@ html {
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    margin-right: 290px;
 }
+
 
 .checkbox-label {
     display: flex;
@@ -1252,28 +1399,26 @@ html {
     box-shadow: var(--shadow-light);
 }
 
-.social-link.facebook:hover {
-    background-color: #1877f2;
+.social-link.linkedin:hover {
+    background: linear-gradient(135deg, #0077B5 0%, #00A0DC 50%, #0077B5 100%);
+    box-shadow: 0 4px 20px rgba(0, 119, 181, 0.55);
     color: var(--text-white);
 }
 
-.social-link.instagram:hover {
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+.social-link.whatsapp:hover {
+    background: linear-gradient(to right bottom, #00E676 0%, #25D366 50%, #00BFA5 100%);
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
     color: var(--text-white);
 }
 
-.social-link.youtube:hover {
-    background-color: #ff0000;
-    color: var(--text-white);
-}
-
-.social-link.pinterest:hover {
-    background-color: #bd081c;
+.social-link.github:hover {
+    background: linear-gradient(135deg, #171515 0%, #4B0082 100%);
+    box-shadow: 0 4px 20px rgba(75, 0, 130, 0.55);
     color: var(--text-white);
 }
 
 .social-link i {
-    font-size: 1.2rem;
+    font-size: 1.45rem;
 }
 
 .faq-section h3 {
@@ -1635,20 +1780,6 @@ html {
     width: 100%;
 }
 
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    gap: 4px;
-}
-
-.hamburger span {
-    width: 25px;
-    height: 3px;
-    background-color: var(--text-primary);
-    transition: var(--transition);
-}
-
 /* ==================== HERO SECTION ==================== */
 .hero {
     margin-top: 80px;
@@ -1777,6 +1908,21 @@ html {
 }
 
 /* ==================== FORMULÁRIOS ==================== */
+.form-group input.error,
+.form-group select.error,
+.form-group textarea.error {
+    border-color: #e74c3c;
+    box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.1);
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: block;
+    min-height: 1.2rem;
+}
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -1905,9 +2051,17 @@ html {
 }
 
 @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 /* ==================== ACESSIBILIDADE ==================== */
@@ -1937,27 +2091,47 @@ html {
 
 /* ==================== RESPONSIVIDADE ==================== */
 @media (max-width: 768px) {
-    .hamburger {
+    .mobile-menu-btn {
         display: flex;
+
     }
 
     .nav-menu {
         position: fixed;
         top: 80px;
         left: -100%;
-        width: 50%;
+        width: 60%;
         height: calc(100vh - 80px);
         background-color: var(--bg-primary);
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         padding-top: 2rem;
-        transition: var(--transition);
+        transition: left 0.3s ease;
         box-shadow: var(--shadow-medium);
+        z-index: 999;
     }
 
-    .nav-menu.active {
+    .nav-menu.mobile-open {
         left: 0;
+    }
+
+    body.menu-open {
+        overflow: hidden;
+    }
+
+
+
+    .nav-menu li {
+        margin: 1rem 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 1rem;
+        font-size: 1.2rem;
     }
 
     .hero-content {
@@ -1973,22 +2147,45 @@ html {
     .container {
         padding: 0 15px;
     }
-    
+
     .recipe-action-buttons {
         flex-direction: column;
     }
-    
+
     .recipe-actions-buttons {
         flex-direction: column;
     }
-    
+
     .recipe-header {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .recipe-content {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Responsividade para tablets */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .about-intro {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .recipe-header {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .recipe-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 }
 
@@ -2005,6 +2202,27 @@ html {
     .btn {
         width: 100%;
         justify-content: center;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .section-title {
+        font-size: var(--font-size-xl);
+    }
+
+    .recipe-card-content {
+        padding: 1rem;
+    }
+
+    .nav-menu {
+        padding-top: 1rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        padding: 0.8rem;
     }
 }
 
@@ -2034,38 +2252,6 @@ html {
 #load-more-btn {
     margin: 0 auto;
     padding: 12px 24px;
-}
-
-
-
-/* ==================== MENU HAMBURGER ==================== */
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    padding: 5px;
-    z-index: 1001;
-}
-
-.hamburger span {
-    width: 25px;
-    height: 3px;
-    background-color: var(--text-primary);
-    margin: 3px 0;
-    transition: var(--transition);
-    border-radius: 2px;
-}
-
-.hamburger.active span:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.hamburger.active span:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburger.active span:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -6px);
 }
 
 /* ==================== ESTILOS PARA RECEITAS ==================== */
@@ -2294,12 +2480,12 @@ html {
     body * {
         visibility: hidden;
     }
-    
+
     #print-content,
     #print-content * {
         visibility: visible;
     }
-    
+
     #print-content {
         position: absolute;
         left: 0;
@@ -2309,7 +2495,7 @@ html {
         background: white;
         color: black;
     }
-    
+
     .print-action-btn {
         display: none !important;
     }
@@ -2464,8 +2650,13 @@ html {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .recipe-content {
@@ -2660,30 +2851,135 @@ html {
 }
 
 /* Melhorias para mobile */
+/* Melhorias para mobile */
 @media (max-width: 768px) {
     .recipe-content {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .recipe-header {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .recipe-meta {
         grid-template-columns: 1fr;
     }
-    
+
     .recipe-sidebar,
     .recipe-main {
         padding: 1.5rem;
     }
-    
+
     #instructions-list li::before {
         left: -10px;
         width: 25px;
         height: 25px;
         font-size: 0.8rem;
+    }
+
+    /* Responsividade geral */
+    .mission-grid,
+    .team-grid,
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .social-links-large {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .hero-image {
+        order: -1;
+        margin-bottom: 1rem;
+    }
+
+    .about-image {
+        width: 92%;
+        margin: auto;
+    }
+
+    .cta-section {
+        width: 92%;
+        margin: 3rem auto;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: var(--font-size-2xl);
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .filters {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .filter-group {
+        width: 100%;
+    }
+
+    .recipe-actions-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .recipe-action-buttons {
+        flex-direction: column;
+    }
+
+    .print-meta {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        grid-template-columns: 1fr !important;
+        gap: 2rem;
+    }
+
+    .mini-timer {
+        bottom: 10px;
+        right: 10px;
+        min-width: 120px;
+        padding: 8px 12px;
+    }
+
+    .mini-timer .time {
+        font-size: 0.9rem;
+    }
+
+    .mini-timer button {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .checkbox-group {
+        flex-direction: column;
+        margin-right: 0;
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .form-group label {
+        font-size: 0.9rem;
+        gap: 8px;
     }
 }

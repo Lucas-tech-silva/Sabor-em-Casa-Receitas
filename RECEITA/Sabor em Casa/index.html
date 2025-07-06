@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,38 @@
     <meta name="theme-color" content="#ff6b35">
     <title>Sabor em Casa - Receitas Práticas e Deliciosas</title>
 
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" href="../assets/ICon.svg" type="image/png">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/img/logo/logo.jpg" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <i class="fas fa-utensils"></i>
+                    <img src="assets/img/logo/logo.jpg" class="logo"
+                        alt="Logo da Sabor em Casa: um garfo, uma faca e um chapéu de cozinheiro">
                     <span>Sabor em Casa</span>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="receitas.html" class="nav-link">Receitas</a></li>
-                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
-                    <li><a href="contato.html" class="nav-link">Contato</a></li>
+                    <li><a href="pages/receitas.html" class="nav-link">Receitas</a></li>
+                    <li><a href="pages/sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="pages/contato.html" class="nav-link">Contato</a></li>
                 </ul>
                 <div class="theme-toggle">
                     <i class="fas fa-moon" id="theme-icon"></i>
                 </div>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+                <button class="mobile-menu-btn">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </button>
             </div>
         </nav>
     </header>
@@ -45,20 +49,21 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1>Bem-vindo ao <span>Sabor em Casa</span></h1>
-                <p>Descubra receitas práticas e deliciosas para transformar sua cozinha em um lugar especial. Cozinhar nunca foi tão fácil e prazeroso!</p>
+                <p>Descubra receitas práticas e deliciosas para transformar sua cozinha em um lugar especial. Cozinhar
+                    nunca foi tão fácil e prazeroso!</p>
                 <div class="hero-buttons">
-                    <a href="receitas.html" class="btn btn-primary">Ver Receitas</a>
-                    <a href="sobre.html" class="btn btn-secondary">Saiba Mais</a>
+                    <a href="pages/receitas.html" class="btn btn-primary">Ver Receitas</a>
+                    <a href="pages/sobre.html" class="btn btn-secondary">Saiba Mais</a>
                 </div>
             </div>
             <div class="hero-image">
                 <!-- Corrigido o caminho da imagem -->
-                <img src="../assets/img/Cozinha-moderna.jpg" alt="Cozinha moderna">
+                <img src="assets/img/Cozinha-moderna.jpg" alt="Cozinha moderna">
             </div>
         </div>
     </section>
 
-     <!-- Popular Recipes Section -->
+    <!-- Popular Recipes Section -->
     <section class="popular-recipes">
         <div class="container">
             <h2 class="section-title">Receitas Populares</h2>
@@ -66,7 +71,7 @@
                 <!-- Receitas serão carregadas via JavaScript -->
             </div>
             <div class="text-center">
-                <a href="receitas.html" class="btn btn-outline">Ver Todas as Receitas</a>
+                <a href="pages/receitas.html" class="btn btn-outline">Ver Todas as Receitas</a>
             </div>
         </div>
     </section>
@@ -110,18 +115,21 @@
                     <h3>Links Rápidos</h3>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="receitas.html">Receitas</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="pages/receitas.html">Receitas</a></li>
+                        <li><a href="pages/sobre.html">Sobre</a></li>
+                        <li><a href="pages/contato.html">Contato</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Contato</h3>
-                    <p><i class="fas fa-envelope"></i> contato@saboremcasa.com</p>
+                    <p><i class="fas fa-envelope"></i> lucassilva1710@yahoo.com</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://github.com/Lucas-tech-silva" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/lsssss-developer/" target="_blank" aria-label="Linkedin"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/5511995442274?text=Olá%20Lucas%2C%20tudo%20bem%3F%20Vi%20seu%20projeto%20Sabor%20em%20Casa%20e%20gostaria%20de%20conversar%20sobre%20uma%20possível%20colaboração%20profissional.%20Fico%20no%20aguardo%20do%20seu%20retorno."
+                            target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -135,10 +143,10 @@
     <!-- Toast Notification -->
     <div id="toast" class="toast"></div>
 
-    <script src="../js/receitas-data.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="js/receitas-data.js"></script>
+    <script src="js/action-buttons.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
-
-
-

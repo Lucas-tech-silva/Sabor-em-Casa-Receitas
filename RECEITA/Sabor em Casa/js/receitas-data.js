@@ -848,7 +848,13 @@ window.ReceitasData = {
 
         // Filtro por dificuldade
         if (dificuldade) {
-            resultados = resultados.filter(receita => receita.dificuldade === dificuldade);
+            const dificuldadeMap = {
+                'easy': 'Fácil',
+                'medium': 'Médio', 
+                'hard': 'Difícil'
+            };
+            const dificuldadePt = dificuldadeMap[dificuldade] || dificuldade;
+            resultados = resultados.filter(receita => receita.dificuldade === dificuldadePt);
         }
 
         return resultados;

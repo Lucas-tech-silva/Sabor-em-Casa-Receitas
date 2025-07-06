@@ -8,10 +8,11 @@
     <title>Sobre - Sabor em Casa</title>
 
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" href="../assets/ICon.svg" type="image/png">
+    <link rel="icon" href="../assets/img/logo/logo.jpg" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
@@ -20,11 +21,12 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <i class="fas fa-utensils"></i>
+                    <img src="../assets/img/logo/logo.jpg" class="logo"
+                        alt="Logo da Sabor em Casa: um garfo, uma faca e um chapéu de cozinheiro">
                     <span>Sabor em Casa</span>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link" translate="no">Home</a></li>
+                    <li><a href="../index.html" translate="no">Home</a></li>
                     <li><a href="receitas.html" class="nav-link">Receitas</a></li>
                     <li><a href="sobre.html" class="nav-link active">Sobre</a></li>
                     <li><a href="contato.html" class="nav-link">Contato</a></li>
@@ -32,11 +34,11 @@
                 <div class="theme-toggle">
                     <i class="fas fa-moon" id="theme-icon"></i>
                 </div>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+                <button class="mobile-menu-btn">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </button>
             </div>
         </nav>
     </header>
@@ -105,7 +107,7 @@
                     </div>
                     <div class="team-member">
                         <div class="member-photo">
-                            <img src="../assets/Lucas.jpeg" alt="Lucas Silva">
+                            <img src="../assets/img/logo-minha.jpg" alt="Lucas Silva logo">
                         </div>
                         <h3>Lucas Silva</h3>
                         <p class="developer">Desenvolvedor</p>
@@ -186,7 +188,7 @@
                 <div class="footer-section">
                     <h3>Links Rápidos</h3>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../index.html">Home</a></li>
                         <li><a href="receitas.html">Receitas</a></li>
                         <li><a href="sobre.html">Sobre</a></li>
                         <li><a href="contato.html">Contato</a></li>
@@ -194,11 +196,14 @@
                 </div>
                 <div class="footer-section">
                     <h3>Contato</h3>
-                    <p><i class="fas fa-envelope"></i> contato@saboremcasa.com</p>
+                    <p><i class="fas fa-envelope"></i> lucassilva1710@yahoo.com</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://github.com/Lucas-tech-silva" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/lsssss-developer/" target="_blank" aria-label="Linkedin"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/5511995442274?text=Olá%20Lucas%2C%20tudo%20bem%3F%20Vi%20seu%20projeto%20Sabor%20em%20Casa%20e%20gostaria%20de%20conversar%20sobre%20uma%20possível%20colaboração%20profissional.%20Fico%20no%20aguardo%20do%20seu%20retorno."
+                            target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -213,7 +218,8 @@
 
 
     <script src="../js/receitas-data.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="../js/action-buttons.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
