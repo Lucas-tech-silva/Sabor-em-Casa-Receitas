@@ -5,8 +5,7 @@
 <br><br>
 
 <p align="center">
-  <img src="mockup/Sabor-em-Casa.png" alt="Mockup do site Sabor em Casa" 
-    style="max-width: 90%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="mockup/Sabor-em-Casa.png" alt="Mockup do site Sabor em Casa">
 </p>
 
 <p align="center">
