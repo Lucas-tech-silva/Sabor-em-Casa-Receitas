@@ -141,9 +141,8 @@ Desenvolvido por **Lucas Silva** 💻
 
 ## 📌 Status do Projeto
 
-<pre>
 ✅ Concluído | 💡 Melhorias futuras: animações adicionais, painel de favoritos, sistema de avaliação por estrelas ⭐⭐⭐⭐⭐, comentários dos usuários 💬, opção de salvar receitas 📌 e sistema de feedback 💬.
-</pre>
+
 <br>
 
 ---
