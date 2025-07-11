@@ -84,10 +84,10 @@ A proposta do **Sabor em Casa** é apresentar receitas de forma clara, atrativa 
 sabor-em-casa/
 │
 ├── assets/
-│   └── img/
-│       ├── logo/
+│   ├── mockup/
+│   ├── img/
+│       └── logo/
 │ 
-│   └── mockup
 ├── css/
 │   └── style.css
 │
