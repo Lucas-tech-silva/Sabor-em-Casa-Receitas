@@ -87,6 +87,7 @@ sabor-em-casa/
 │   └── img/
 │       ├── logo/
 │ 
+│   └── mockup
 ├── css/
 │   └── style.css
 │
