@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://sabor-em-casa.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Acessar%20o%20site-Sabor%20em%20Casa-1E90FF?style=for-the-badge&logo=apple&logoColor=white" alt="Acessar o site Sabor em Casa" />
+    <img src="https://img.shields.io/badge/Acessar%20o%20site-Sabor%20em%20Casa-FFA500?style=for-the-badge&logo=apple&logoColor=white" alt="Acessar o site Sabor em Casa" />
   </a>
 </p>
 
