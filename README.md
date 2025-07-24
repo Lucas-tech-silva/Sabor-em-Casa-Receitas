@@ -8,13 +8,6 @@
   <img src="assets/mockup/Sabor-em-Casa.png" alt="Mockup do site Sabor em Casa">
 </p>
 
-
-<p align="center">
-  <a href="https://sabor-em-casa.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Acessar%20o%20site-Sabor%20em%20Casa-FFA500?style=for-the-badge&logo=&logoColor=white" alt="Botão laranja"/>
-  </a>
-</p>
-
 <br><br>
 
 <p align="center">
