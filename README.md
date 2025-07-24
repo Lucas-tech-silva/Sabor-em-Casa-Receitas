@@ -5,16 +5,14 @@
 <br><br>
 
 <p align="center">
-  <img src="assets/mockup/Sabor-em-Casa.png" alt="Mockup do site Sabor em Casa">
+  <img src="mockup/Sabor-em-Casa.png" alt="Mockup do site Sabor em Casa">
 </p>
-
-<br><br>
 
 <p align="center">
-  <a href="https://sabor-em-casa.vercel.app" target="_blank" rel="noopener noreferrer">
-    <p "🍽️SITE-SABOR EM CASA-FF6347?style=for-the-badge&logo=firefox-browser&logoColor=white"><p/>
-  </a>
+  <i>Visual do projeto “Sabor em Casa” — site responsivo, leve e intuitivo para amantes da boa culinária 🍝.</i>
 </p>
+
+<br>
 
 ---
 
@@ -168,3 +166,13 @@ Desenvolvido por **Lucas Silva** 💻
 </p>
 
 <br>
+
+
+
+
+<p align="center">
+  <i>Visual do projeto “Sabor em Casa” — site responsivo, leve e intuitivo para amantes da boa culinária 🍝.</i>
+</p>
+
+
+Abaixo disto queria colocar um btn grande falando entre no site sei la 
