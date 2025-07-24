@@ -8,9 +8,10 @@
   <img src="assets/mockup/Sabor-em-Casa.png" alt="Mockup do site Sabor em Casa">
 </p>
 
+
 <p align="center">
-  <a href="https://sabor-em-casa.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Acessar%20o%20site-Sabor%20em%20Casa-FFA500?style=for-the-badge&logo=apple&logoColor=white" alt="Acessar o site Sabor em Casa" />
+  <a href="https://neo-weather-alpha.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Acessar o site Sabor em Casa-1E90FF?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Sabor em Casa"/>
   </a>
 </p>
 
