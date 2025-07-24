@@ -9,7 +9,9 @@
 </p>
 
 <p align="center">
-  <i>Visual do projeto “Sabor em Casa” — site responsivo, leve e intuitivo para amantes da boa culinária 🍝.</i>
+  <a href="https://sabor-em-casa.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/🍽️ Acessar o site-Sabor em Casa-FF6347?style=for-the-badge" alt="Acessar o site Sabor em Casa"/>
+  </a>
 </p>
 
 <br>
