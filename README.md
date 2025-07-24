@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://neo-weather-alpha.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Acessar o site Sabor em Casa-1E90FF?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Sabor em Casa"/>
+    <img src="Acessar o site Sabor em Casa-FFA500?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Sabor em Casa"/>
   </a>
 </p>
 
