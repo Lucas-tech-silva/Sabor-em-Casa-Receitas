@@ -10,8 +10,8 @@
 
 
 <p align="center">
-  <a href="https://neo-weather-alpha.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Acessar%20o%20site-NomeDoSite-FFA500?style=for-the-badge&logo=&logoColor=white" alt="Botão laranja"/>
+  <a href="https://sabor-em-casa.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Acessar%20o%20site-Sabor%20em%20Casa-FFA500?style=for-the-badge&logo=&logoColor=white" alt="Botão laranja"/>
   </a>
 </p>
 
