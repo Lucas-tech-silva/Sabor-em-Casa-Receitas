@@ -5,7 +5,7 @@
 <br><br>
 
 <p align="center">
-  <img src="mockup/Sabor-em-Casa.png" alt="Mockup do site Sabor em Casa">
+  <img src="assets/mockup/Sabor-em-Casa.png" alt="Mockup do site Sabor em Casa">
 </p>
 
 <p align="center">
