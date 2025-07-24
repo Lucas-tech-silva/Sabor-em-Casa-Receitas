@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://sabor-em-casa.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/👉 ENTRAR NO SITE-SABOR EM CASA-FF6347?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Entrar no site Sabor em Casa"/>
+    <img src="https://img.shields.io/badge/SITE-SABOR EM CASA-FF6347?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Entrar no site Sabor em Casa"/>
   </a>
 </p>
 
