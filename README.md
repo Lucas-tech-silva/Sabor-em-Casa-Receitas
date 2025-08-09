@@ -157,5 +157,3 @@ Desenvolvido por **Lucas Silva** 💻
   <i>Visual do projeto “Sabor em Casa” — site responsivo, leve e intuitivo para amantes da boa culinária 🍝.</i>
 </p>
 
-
-Abaixo disto queria colocar um btn grande falando entre no site sei la 
