@@ -35,7 +35,8 @@ Este repositório está **privado** com o objetivo de proteger:
 - 🔹 **HTML5** — estrutura semântica e organizada  
 - 🔹 **CSS3** — responsividade, animações e design moderno  
 - 🔹 **JavaScript** — interatividade e manipulação dinâmica dos dados  
-- 🔹 **Design UX/UI** — foco na navegação fluida, visual limpo e usabilidade  
+- 🔹 **Design UX/UI** — foco na navegação fluida, visual limpo e usabilidade
+- 🔹 **SEO** — otimização para melhorar a indexação e visibilidade do site nos motores de busca, garantindo melhor ranqueamento.
 - 🔹 **Logo e Marca** — criados manualmente para refletir o conceito do projeto
 - 🔹 Figma — prototipagem e layout visual
 - 🔹 Git/GitHub — versionamento e deploy
@@ -88,6 +89,9 @@ sabor-em-casa/
 │   ├── receita.html
 │   ├── receitas.html
 │   └── sobre.html
+│
+├──  robots.txt
+├──  sitemap.xml
 │
 ├── README-ATUALIZADO.md
 └── README.md
