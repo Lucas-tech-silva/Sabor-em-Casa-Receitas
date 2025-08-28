@@ -104,7 +104,7 @@ sabor-em-casa/
 
 ## 📱 Responsividade
 
-O layout é adaptável a **celulares, tablets e desktops**, proporcionando uma navegação fluida em qualquer tela.
+O layout se adapta a celulares, tablets e desktops, garantindo navegação fluida e fácil leitura em qualquer dispositivo. Elementos como menus, imagens e grids se ajustam automaticamente, mantendo a experiência do usuário consistente.
 
 <br>
 
@@ -152,8 +152,6 @@ Desenvolvido por **Lucas Silva** 💻
 </p>
 
 <br>
-
-
 
 
 <p align="center">
