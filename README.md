@@ -1,101 +1,68 @@
 # 👨‍🍳 Sabor em Casa
 
-**Sabor em Casa** é um site de receitas desenvolvido por mim com foco em **experiência do usuário (UX)**, **interface intuitiva (UI)** e design responsivo. O projeto foi criado 100% do zero — desde a **identidade visual**, **logo**, **layout**, até a **estrutura de código em HTML, Tailwind, CSS e JavaScript**.
+Aplicação web de receitas desenvolvida com foco em **UX/UI, responsividade e experiência do usuário**.
 
-<br><br>
+Projeto criado do zero, com identidade visual própria e estrutura organizada em HTML, CSS e JavaScript.
+
+---
+
+## 🖼️ Preview do Projeto
 
 <p align="center">
-  <img src="assets/mockup/Sabor-em-Casa.png" alt="Mockup do site Sabor em Casa">
+  <img src="assets/mockup/sabor-em-casa.png" alt="Sabor em Casa Preview" width="650"/>
 </p>
 
 <p align="center">
-  <i>Visual do projeto “Sabor em Casa” — site responsivo, leve e intuitivo para amantes da boa culinária 🍝.</i>
+  <i>Interface responsiva, leve e focada em experiência do usuário.</i>
 </p>
 
-<br>
+---
+
+## 🚀 Sobre o Projeto
+
+O **Sabor em Casa** foi desenvolvido como um projeto front-end completo com foco em:
+
+- Estruturação de interface moderna
+- Organização de componentes visuais
+- Experiência de navegação fluida
+- Responsividade mobile-first
 
 ---
 
+## 🧠 O que foi praticado neste projeto
 
-## 🔒 Repositório Privado
-
-Este repositório está **privado** com o objetivo de proteger:
-
-- A **autenticidade do código-fonte**
-- A **identidade visual** criada exclusivamente para o projeto
-- A **originalidade da marca e das soluções de UX/UI**
-
-<br>
+- Estruturação de páginas com HTML semântico
+- Estilização moderna com CSS (Flexbox e Grid)
+- Lógica de interface com JavaScript
+- Manipulação de dados no front-end
+- Responsividade para diferentes dispositivos
+- Organização de projeto real (pastas e módulos)
 
 ---
 
+## 🛠️ Tecnologias Utilizadas
 
-## 🚀 Tecnologias Utilizadas
-
-- 🔹 **HTML5** — estrutura semântica e organizada  
-- 🔹 **CSS3** — responsividade, animações e design moderno  
-- 🔹 **JavaScript** — interatividade e manipulação dinâmica dos dados  
-- 🔹 **Design UX/UI** — foco na navegação fluida, visual limpo e usabilidade
-- 🔹 **SEO** — otimização para melhorar a indexação e visibilidade do site nos motores de busca, garantindo melhor ranqueamento.
-- 🔹 **Logo e Marca** — criados manualmente para refletir o conceito do projeto
-- 🔹 Figma — prototipagem e layout visual
-- 🔹 Git/GitHub — versionamento e deploy
-
-<br>
+- HTML5  
+- CSS3  
+- JavaScript (ES6+)  
+- Figma (UI/UX Design)  
+- Git & GitHub  
 
 ---
-
-<br>
-
-## 🧠 Sobre o Projeto
-
-A proposta do **Sabor em Casa** é apresentar receitas de forma clara, atrativa e acessível. O site foi pensado para:
-
-- 🧩 Navegação fácil em qualquer dispositivo  
-- 🥗 Cards com receitas ilustradas, tempo de preparo, dificuldade e ingredientes  
-- 🌙 Animações suaves e visual agradável  
-
-<br>
-
----
-
-<br>
 
 ## 📁 Estrutura do Projeto
 
-<pre>
+```txt
 sabor-em-casa/
 │
 ├── assets/
-│   ├── mockup/
-│   ├── img/
-│       └── logo/
-│ 
 ├── css/
-│   └── style.css
-│
 ├── js/
-│   ├── action-buttons.js
-│   ├── contact-form.js
-│   ├── main.js
-│   ├── README-MODULOS.md
-│   └── receitas-data.js
-│
 ├── pages/
-│   ├── contato.html
-│   ├── imprimir-receitas.html
-│   ├── index.html
-│   ├── print.html
-│   ├── receita.html
-│   ├── receitas.html
-│   └── sobre.html
-│
-├──  robots.txt
-├──  sitemap.xml
-│
-├── README-ATUALIZADO.md
+├── robots.txt
+├── sitemap.xml
 └── README.md
-</pre>
+```
 
 <br>
 
@@ -104,7 +71,11 @@ sabor-em-casa/
 
 ## 📱 Responsividade
 
-O layout é totalmente adaptável a celulares, tablets e desktops, proporcionando uma navegação fluida e confortável em qualquer tela. Menus, imagens, grids e botões se ajustam automaticamente, garantindo que a experiência do usuário seja consistente e agradável, independentemente do dispositivo utilizado.
+O projeto é totalmente responsivo e adaptado para:
+
+📱 Smartphones
+📟 Tablets
+💻 Desktops
 
 <br>
 
@@ -112,13 +83,14 @@ O layout é totalmente adaptável a celulares, tablets e desktops, proporcionand
 
 <br>
 
-## 🛠️ Autor
+## 👨‍💻 Autor
 
-Desenvolvido por **Lucas Silva** 💻 
+**Lucas Silva**
 
-- GitHub (Perfil): [Clique aqui](https://github.com/Lucas-tech-silva)  
-- Portfólio: [Clique aqui](https://portif-lio-nu-two.vercel.app/)
-- Linkedin: [Clique aqui](https://www.linkedin.com/in/lsssss-developer/)
+* 🌐 Portfólio: https://portif-lio-nu-two.vercel.app/
+* 💻 GitHub: https://github.com/Lucas-tech-silva
+* 🔗 LinkedIn: https://www.linkedin.com/in/lucassilva-developer/
+* 📧 Email: [lucassilva1710@yahoo.com](mailto:lucassilva1710@yahoo.com?subject=Oportunidade%20-%20Sabor%20em%20Casa&body=Olá%20Lucas,%0A%0AVi%20o%20projeto%20Sabor%20em%20Casa%20e%20gostaria%20de%20falar%20sobre%20uma%20oportunidade.%0A)
 
 <br>
 
@@ -127,9 +99,19 @@ Desenvolvido por **Lucas Silva** 💻
 
 ## 📌 Status do Projeto
 
-✅ Concluído | 💡 Melhorias futuras: animações adicionais, painel de favoritos, sistema de avaliação por estrelas ⭐⭐⭐⭐⭐, comentários dos usuários 💬, opção de salvar receitas 📌 e sistema de feedback 💬.
+✅ Projeto concluído e funcional
+🚀 Em constante evolução
 
 <br>
+
+## 📊 Melhorias futuras:
+
+
+- Implementação de sistema de favoritos
+- Sistema de avaliação de receitas
+- Área de comentários para usuários
+- Melhoria contínua de animações e experiência do usuário
+- Expansão de funcionalidades para personalização das receitas
 
 ---
 
