@@ -9,7 +9,7 @@ Projeto criado do zero, com identidade visual própria e estrutura organizada em
 ## 🖼️ Preview do Projeto
 
 <p align="center">
-  <img src="assets/mockup/sabor-em-casa.png" alt="Sabor em Casa Preview" width="650"/>
+  <img src="assets/mockup/Sabor-em-Casa.png" alt="Sabor em Casa Preview" width="650"/>
 </p>
 
 <p align="center">
