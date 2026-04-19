@@ -4,9 +4,18 @@ Aplicação web de receitas desenvolvida com foco em **UX/UI, responsividade e e
 
 Projeto criado do zero, com identidade visual própria e estrutura organizada em HTML, CSS e JavaScript.
 
----
+<br>
 
-## 🖼️ Preview do Projeto
+<div align="center">
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express&logoColor=white)
+![API](https://img.shields.io/badge/API-OpenWeather-blue?style=for-the-badge)
+
+</div>
+
+<br>
 
 <p align="center">
   <img src="assets/mockup/Sabor-em-Casa.png" alt="Sabor em Casa Preview" width="650"/>
@@ -15,6 +24,8 @@ Projeto criado do zero, com identidade visual própria e estrutura organizada em
 <p align="center">
   <i>Interface responsiva, leve e focada em experiência do usuário.</i>
 </p>
+
+<br>
 
 ---
 
